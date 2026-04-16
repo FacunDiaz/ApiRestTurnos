@@ -1,6 +1,6 @@
 package com.example.demo.enums;
 
-public enum ObraSocial {
+public enum HealthcareSystem {
     PAMI,
     OSDE,
     BOREAL;
