@@ -15,6 +15,8 @@ public class User {
     private long idUser;
 
     private String name;
+
+    @Column(unique = true)
     private long dni;
     private Date bornDate;
     private HealthcareSystem healthcareSys;

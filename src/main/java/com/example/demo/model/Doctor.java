@@ -13,6 +13,8 @@ public class Doctor {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long idDoctor;
     private String name;
+
+    @Column(unique = true)
     private String dni;
     private int yearsExp;
     private String description;
