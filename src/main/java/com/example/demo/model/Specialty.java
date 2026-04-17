@@ -42,15 +42,11 @@ public class Specialty {
         return doctorList;
     }
 
-    public void setDoctorList(List<Doctor> doctorList) {
-        this.doctorList = doctorList;
-    }
-
     public void addToDoctorList(Doctor doctor) {
         this.doctorList.add(doctor);
     }
 
     public void removeFromDoctorList(Doctor doctor){
-        this.doctorList.remove(doctor); 
+        this.doctorList.remove(doctor);
     }
 }
